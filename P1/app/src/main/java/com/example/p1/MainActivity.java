@@ -1,6 +1,5 @@
-package com.example.programacinparalelatiemporeal;
+package com.example.p1;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -11,7 +10,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Override // Funciones para generar caracteristicas
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
@@ -21,22 +20,5 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-        Thread thread = new Thread(){
-
-            @Override
-            public void run(){
-                try{sleep(3000);}
-                catch(InterruptedException e){e.printStackTrace();}
-
-                finally {
-
-                    Intent intent = new Intent(MainActivity.this, Menu.class);
-                    startActivity(intent);
-                }
-            }
-        };
-
-        thread.start();
     }
 }

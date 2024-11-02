@@ -1,4 +1,4 @@
-package com.example.programacinparalelatiemporeal;
+package com.example.p3;
 
 import org.junit.Test;
 

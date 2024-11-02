@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.programacinparalelatiemporeal"
+    namespace = "com.example.p1"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.programacinparalelatiemporeal"
+        applicationId = "com.example.p1"
         minSdk = 27
         targetSdk = 34
         versionCode = 1

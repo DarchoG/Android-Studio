@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ProgramaciónParalelaTiempoReal"
+rootProject.name = "p1"
 include(":app")
- 

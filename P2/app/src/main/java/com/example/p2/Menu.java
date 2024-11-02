@@ -1,4 +1,4 @@
-package com.example.guzmnzavaladaniel16092024p2;
+package com.example.p2;
 
 import android.content.Intent;
 import android.os.Bundle;
